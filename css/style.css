@@ -113,6 +113,7 @@ a{
 .card-header div b{
   margin-left: 10px;
 }
+
 .card-img{
   width: 100%;
 }
@@ -133,6 +134,9 @@ a{
 .likes{
   display: flex;
   align-items: center;
+}
+#buttonLikes{
+  border: none;
 }
 
 .likes b{

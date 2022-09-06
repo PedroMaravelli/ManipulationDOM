@@ -41,15 +41,20 @@
                 Cadastre-se para ver fotos dos seus amigos
             </p>
         </div>
-        <form class="form-auth card" method="post" action="/registro">
+        <form id="formsRegistration" class="form-auth card" method="post" action="/registro">
             <div id="logo">
                 <img src="img/logo.png" alt="">
             </div>
-            <input type="email" name="email" placeholder="Digite seu email">
-            <input type="text" name="name" placeholder="Digite seu nome completo">
-            <input type="text" name="surname" placeholder="Digite seu último sobrenome">
-            <input type="text" name="username" placeholder="Digite seu nome de usuario">
-            <input type="password" name="password" placeholder="Senha">
+            <ul id="errors">
+              
+            </ul>
+            <div id="formsGroup">
+              <input id="email" type="email" name="email" placeholder="Digite seu email">
+              <input id="nameCadastro" type="text" name="name" placeholder="Digite seu nome completo">
+              <input id="surname" type="text" name="surname" placeholder="Digite seu último sobrenome">
+              <input id="username" type="text" name="username" placeholder="Digite seu nome de usuario">
+              <input id="password" type="password" name="password" placeholder="Senha">
+            </div>
             <button type="submit">
                 Cadastra-se
             </button>
@@ -61,7 +66,9 @@
             </div>
         </form>
 
+
     </main>
+    <script src="./js/forms.js"></script>
 </body>
 
 </html>
